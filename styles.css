@@ -36,6 +36,7 @@ header {
 }
 main {
 	background-color: rgba(0,78,158,1.00);
+	background-image: url(images/Gabelstapler-6m-Hubh%C3%B6he.jpg);
 }
 
 
@@ -147,4 +148,111 @@ footer {
 
 .clear-float {
 	clear: both;
+}
+
+@media (max-width:768px) and (min-width:414px){
+main {
+	font-family: Calibri;
+	background-image: url(images/Gabelstapler-6m-Hubh%C3%B6he.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.head-img {
+	color: rgb(239,124,0);
+	font-size: x-large;
+	font-weight: 800;
+	font-family: Calibri;
+
+
+
+}
+.head-img img {
+	margin-bottom: -9.1px;
+	padding-right: 2px;
+	width: 22%;
+
+}
+.main-left {
+	float: left;
+	width: 100%;
+	padding-top: 125px;
+	background-color: rgba(255,255,255,0.00);
+}
+.main-right {
+	float: left;
+	width: 100%;
+	background-color: rgba(255,255,255,0.00);
+	height: 300px;
+}
+.main-right img {
+	display: none;
+}
+
+.col-2 {
+	width: 100%;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col-3 {
+	width: 50%;
+	float: left;
+	margin-bottom: -5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.main-contact-img {
+	width: 50%;
+	padding-left: 10%;
+}
+.main-contact-info {
+	width: 70%;
+	padding-left: 10%;
+	color: rgba(0,78,158,1.00);
+}
+form {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 5%;
+}
+.white-bg {
+	background-color: rgba(0,0,0,0.00);
+
+}
+.main-text-2 {
+	color: rgb(239,124,0);
+	text-align: justify;
+	padding-top: 5px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+	font-size: large;
+	background-color: rgba(0,78,158,0.81);
+}
+.main-text {
+	background-color: rgba(0,78,158,0.81);
+}
+footer img {
+	height: 50px;
+	background-color: rgba(255,255,255,0.81);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width:414px){
 }
