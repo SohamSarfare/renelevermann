@@ -155,8 +155,8 @@ main {
 	font-family: Calibri;
 	background-image: url(images/Gabelstapler-6m-Hubh%C3%B6he.jpg);
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+	background-attachment: scroll;
+	background-size: contain;
 }
 .head-img {
 	color: rgb(239,124,0);
@@ -318,6 +318,11 @@ main {
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
+.col-3 img {
+	height: 125px;
+
+}
+
 .main-contact-img {
 	width: 50%;
 	padding-left: 10%;
