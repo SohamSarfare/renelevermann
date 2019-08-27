@@ -264,6 +264,11 @@ footer img {
 .main-contact {
 	background-color: rgba(239,124,0,0.83);
 }
+.main-img {
+	height: auto;
+	width: 100%;
+}
+
 
 
 
@@ -348,6 +353,7 @@ main {
 }
 .main-img {
 	height: auto;
+	width: 100%;
 }
 
 form {
