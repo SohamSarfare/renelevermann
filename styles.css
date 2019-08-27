@@ -36,7 +36,6 @@ header {
 }
 main {
 	background-color: rgba(0,78,158,1.00);
-	background-image: url(images/Gabelstapler-6m-Hubh%C3%B6he.jpg);
 }
 
 
@@ -135,6 +134,13 @@ footer {
 	text-align: center;
 	margin-right: auto;
 	width: 100%;
+	background-color: #fff;
+	padding-left: 30%;
+}
+footer img {
+	height: auto;
+	background-color: rgba(255,255,255,0.81);
+	width: 20%;
 }
 
 
@@ -155,8 +161,8 @@ main {
 	font-family: Calibri;
 	background-image: url(images/Gabelstapler-6m-Hubh%C3%B6he.jpg);
 	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-size: contain;
+	background-attachment: fixed;
+	background-size: cover;
 }
 .head-img {
 	color: rgb(239,124,0);
@@ -238,6 +244,10 @@ form {
 }
 .main-text {
 	background-color: rgba(0,78,158,0.81);
+}
+footer {
+	margin-left: 0px;
+	padding-left: 0px;
 }
 footer img {
 	height: 50px;
@@ -365,6 +375,10 @@ footer img {
 }
 .main-contact {
 	background-color: rgba(239,124,0,0.83);
+}
+footer {
+	margin-left: 0px;
+	padding-left: 0px;
 }
 
 
