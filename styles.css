@@ -32,13 +32,15 @@ header {
 .head-img img {
 	margin-bottom: -9.1px;
 	padding-right: 25px;
+	/* [disabled]float: left; */
 
 }
 main {
-	background-color: #004E9E;
+	/* [disabled]background-color: #004E9E; */
 	margin-left: auto;
 	margin-right: auto;
 	/* [disabled]text-align: center; */
+	clear: both;
 }
 
 
@@ -47,6 +49,7 @@ main {
 	font-size: xx-large;
 	font-weight: 800;
 	text-align: center;
+	background-color: #004E9E;
 }
 .main-text-2 {
 	color: #EF7C00;
@@ -143,7 +146,6 @@ input {
 footer {
 	text-align: center;
 	margin-right: auto;
-	width: 100%;
 	background-color: #fff;
 	padding-left: 30%;
 }
@@ -169,10 +171,6 @@ footer img {
 @media (max-width:768px) and (min-width:414px){
 main {
 	font-family: Calibri;
-	background-image: url(images/Gabelstapler-6m-Hubh%C3%B6he.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
 }
 .head-img {
 	color: #EF7C00;
@@ -184,11 +182,15 @@ main {
 
 }
 .head-img img {
-	margin-bottom: -9.1px;
 	padding-right: 2px;
-	width: 22%;
+	width: 48%;
+	padding-bottom: 0px;
 
 }
+.head-img p {
+	width: 70%;
+}
+
 .main-left {
 	float: left;
 	width: 100%;
@@ -271,6 +273,10 @@ footer img {
 	height: auto;
 	width: 100%;
 }
+#hide {
+	display: none;
+}
+
 
 
 
@@ -292,7 +298,7 @@ footer img {
 @media (max-width:414px){
 main {
 	font-family: Calibri;
-	background-color: #004E9E;
+	/* [disabled]background-color: #004E9E; */
 }
 .head-img {
 	color: #EF7C00;
@@ -393,6 +399,10 @@ footer {
 	margin-left: 0px;
 	padding-left: 0px;
 }
+#hide {
+	display: none;
+}
+
 
 
 }
